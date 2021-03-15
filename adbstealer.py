@@ -74,7 +74,7 @@ else:
     
 def check_root(connection):
     while True:
-        data = connection.read(10)
+        data = connection.read(1024)
         if not data:
             break
         print("Writing to root.txt")
