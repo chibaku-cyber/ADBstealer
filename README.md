@@ -18,7 +18,7 @@ However if an Android device is not rooted, this tool will not work.
 sudo apt-get install git python3-pip
 sudo apt-get install android-tools-adb
 sudo pip install pure-python-adb
-git clone https://github.com/chibaku-cyber/adbstealer
+git clone https://github.com/chibaku-cyber/ADBstealer
 cd adbstealer
 ```
 
