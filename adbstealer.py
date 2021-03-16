@@ -96,16 +96,12 @@ def exception_2():
         os.remove("root.txt")
     sys.exit(1)
 
-def check_1():
-    if check_vuln("root.txt", "usage:"):
-        print("Device is rooted, proceeding with exploit")
-    else:
-        exception_2()
-
 if check_vuln("root.txt", "Usage:"):
     print("Device is rooted, proceeding with exploit")
+elif check_vuln("root.txt", "usage:"):
+    print("Device is rooted, proceeding with exploit")
 else:
-    check_1()
+    exception_2()
 
 device.shell("su -c chmod 777 /data/data/com.android.chrome")
 time.sleep(3)
