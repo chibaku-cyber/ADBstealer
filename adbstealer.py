@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 
-"""Copyright (c) 2021, chibaku-cyber
+"""
+Copyright (c) 2021, chibaku-cyber
 All rights reserved.
 
 Redistribution and use in source and binary forms, with or without
